@@ -1,7 +1,7 @@
 import React from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
-import { Switch, Route,} from "react-router-dom";
+import { Switch, Route, Redirect} from "react-router-dom";
 import Home from "./Home";
 import Services from "./Services";
 import Contacts from "./Contacts";
@@ -25,7 +25,7 @@ const App = () => {
         <Route exact path="/Application" component={Application} />
         <Route exact path="/Clothing" component={Clothing} />
         <Route exact path="/Footwear" component={Footwear} />
-        
+        <Redorect to="/"/>
       </Switch>
      
     </>
