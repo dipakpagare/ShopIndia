@@ -11,7 +11,7 @@ const Footer = () => {
 
  
   <div className="footer-copyright text-center py-3">© 2020 Copyright:
-    <NavLink to="https://missionindia.com/"> missionindia.me</NavLink>
+    <NavLink to="https://dipakpagare.github.io/ShopIndia/"> missionindia.me</NavLink>
   </div>
 
 
